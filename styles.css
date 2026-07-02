@@ -1093,6 +1093,7 @@ footer{
     .hero-buttons{
 
         flex-direction:column;
+        box-sizing: border-box;
 
         gap:15px;
 
