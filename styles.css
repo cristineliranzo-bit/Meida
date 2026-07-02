@@ -838,6 +838,11 @@ footer{
 ======================================================= */
 
 @media (max-width: 480px) {
+    
+    /* Corrección global para evitar desbordamientos */
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
 
     /* ---------------------------------------------------
        1. AJUSTES GENERALES DE ESPACIADO
@@ -955,9 +960,6 @@ footer{
     .hero-image{
 
         order:2;
-        width: 100%;
-        display: flex;
-        justify-content: center;
 
     }
 
@@ -1034,11 +1036,11 @@ footer{
 
     .category-card img{
 
-        width:80%;
+        width:100%;
 
         height:auto;
 
-        max-width:350px;
+        max-width:100%;
 
     }
 
@@ -1093,7 +1095,6 @@ footer{
     .hero-buttons{
 
         flex-direction:column;
-        box-sizing: border-box;
 
         gap:15px;
 
