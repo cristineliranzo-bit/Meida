@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFuel Market</title>
+    <!-- Vinculación del archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ================= ENCABEZADO PRINCIPAL ================= -->
+    <header>
+        <div class="container">
+            <div class="logo">
+    
+                <a href="#">
+                    <img src="img/logo.png" alt="FitFuel Market Logo">
+                </a>
+            </div>
+            <a href="#" class="header-button">Compra Ahora</a>
+        </div>
+    </header>
+    
+
+    <!-- Menú principal de navegación. Permite acceder rápidamente a cada sección de la página. -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#categories">Categorías</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#reviews">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- ================= CONTENIDO PRINCIPAL ================= -->
+    <main>
+
+        <!-- Hero Principal. Presenta el mensaje principal de la tienda y un botón para dirigir al usuario hacia los productos. -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="tag">
+                        Premium Sports Nutrition</span>
+                    <h2> Alimenta tu rendimiento con suplementos de calidad.</h2>
+
+                    <p>
+                        En FitFuel Market encontrarás proteínas, creatinas,
+                        pre-workouts y accesorios fitness seleccionados para
+                        ayudarte a mejorar tu desempeño, acelerar tu recuperación
+                        y alcanzar tus objetivos deportivos.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn-primary"> Explorar productos </a>
+                        <a href="#benefits" class="btn-secondary"> Conocer beneficios </a>
+                    </div>
+                </div>
+                <div class="hero-image"><img src="img/suplementos.png" alt="Suplementos deportivos"></div>
+            </div>
+        </section>
+
+    
+        <!-- ================= NUESTRA MISION ================= -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestra misión</h2>
+                </div>
+                <p>
+                    En FitFuel Market creemos que una buena alimentación y una
+                    suplementación adecuada pueden marcar la diferencia en el
+                    rendimiento deportivo. Nuestro objetivo es ofrecer productos
+                    confiables que ayuden a cada persona a desarrollar hábitos
+                    saludables y alcanzar sus metas, sin importar si apenas
+                    comienza a entrenar o si ya tiene experiencia en el mundo
+                    fitness.
+                </p>
+            </div>
+        </section>
+        
+        
+        <!-- ================= CATEGORÍAS DESTACADAS ================= -->
+        <section id="categories" class="categories">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Categorías Destacadas</h2>
+                    <p> Encuentra el suplemento ideal según tus objetivos de entrenamiento. </p>
+                </div>
+                <div class="categories-grid">
+                    <article class="category-card">
+                        <img src="img/protein 2.png" alt="Proteínas">
+                        <h3>Proteínas</h3>
+                        <p> Favorecen la recuperación muscular y ayudan al desarrollo de masa magra.</p>
+                    </article>
+
+                    <article class="category-card">
+                        <img src="img/creatine 2.png" alt="Creatina">
+                        <h3>Creatinas</h3>
+                        <p>Incrementan la fuerza y el rendimiento durante los entrenamientos intensos.</p>
+                    </article>
+
+                    <article class="category-card">
+                        <img src="img/pre work 2.png" alt="Pre Workout">
+                        <h3>Pre-Workout</h3>
+                        <p>
+                            Aumentan la energía, la concentración y la resistencia física.
+                        </p>
+                    </article>
+
+                    <article class="category-card">
+                        <img src="img/Gym kit.png" alt="Accesorios">
+                        <h3>Accesorios</h3>
+                        <p>
+                            Todo lo que necesitas para complementar tu rutina fitness.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- ================= PRODUCTOS ================= -->
+        
+        <section id="products" class="products">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Productos Destacados</h2>
+                    <p>
+                        Descubre algunos de los suplementos más vendidos de nuestra tienda.
+                    </p>
+                </div>
+
+                <!--Filtro visual de categorías. Facilita la organización del catálogo por tipode suplemento. -->
+                <div class="product-filter">
+                    <a href="#proteinas" class="active-filter">Proteínas</a>
+                    <a href="#creatinas">Creatinas</a>
+                    <a href="#preworkout">Pre-Workout</a>
+                    <a href="#accesorios">Accesorios</a>
+                </div>
+
+                <!-- ================= PROTEÍNAS ================= -->
+                <h2 id="proteinas" class="category-title">Proteínas</h2>
+                <div class="products-grid">
+
+        
+                    <!-- Producto 1 -->
+                    <article class="product-card">
+                        <span class="badge">Best Seller</span>
+        
+                        <img src="img/impact protein.png" alt="Impact Whey Protein">
+        
+                        <h3>MyProtein, Impact Whey Protein</h3>
+        
+                        <p class="description">
+                            Proteína de suero premium ideal para favorecer el crecimiento y la recuperación muscular.
+                        </p>
+        
+                        <p><strong>Tipo:</strong> Proteína</p>
+        
+                        <div class="rating">★★★★★</div>
+        
+                        <div class="price">
+                            <span class="old-price">US$39.99</span>
+                            <span class="new-price">US$29.17</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+        
+        
+                    <!-- Producto 2 -->
+                    <article class="product-card">
+                        <span class="badge">Popular</span>
+        
+                        <img src="img/ProteinaVainillaNochiola.png" alt="Nochiola Protein">
+                        <h3>Nochiola, Proteína Vegetal</h3>
+        
+                        <p class="description">
+                            Proteína refrescante de rápida absorción con alto contenido proteico.
+                        </p>
+        
+                        <p> <strong>Tipo:</strong> Proteína</p>
+        
+                        <div class="rating">★★★★★</div>
+        
+                        <div class="price">
+                            <span class="old-price">US$54.99</span>
+                            <span class="new-price">US$32.00</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+        
+        
+                    <!-- Producto 3 -->
+                    <article class="product-card">
+                        <span class="badge">Nuevo</span>
+        
+                        <img src="img/PROTEINI.SI VEGAN PROTEIN.png" alt="PROTEINI.SI Vegan Protein">
+                        <h3>PROTEINI.SI, Proteína Vegana</h3>
+        
+                        <p class="description">Proteína vegetal elaborada para apoyar una alimentación equilibrada.</p>
+                        <p><strong>Tipo:</strong> Proteína</p>
+    
+                        <div class="rating">★★★★</div>
+        
+                        <div class="price">
+                            <span class="old-price">US$20.46</span>
+                            <span class="new-price">US$14.87</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+                </div>
+        
+
+                <!-- ================= CREATINAS ================= -->
+                <h2 id="creatinas" class="category-title">Creatinas</h2>
+                <div class="products-grid">
+
+        
+                    <!-- Producto 1 -->
+                    <article class="product-card">
+                        <span class="badge">Top</span>
+                        <img src="img/Naturecan Creatine.png" alt="Naturecan Creatine Monohydrate">
+                    
+                        <h3>Naturecan, Monohidrato Creatina</h3>
+                        <p class="description">Creatina micronizada para mejorar fuerza y rendimiento.</p>
+                        <p><strong>Tipo:</strong> Creatina</p>
+                    
+                        <div class="rating">★★★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$34.99</span>
+                            <span class="new-price">US$29.75</span>
+                        </div>
+                    
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+
+
+
+                    <!-- Producto 2 -->
+                    <article class="product-card">
+                        <span class="badge">Popular</span>
+                        <img src="img/MyProtein Creatine.png" alt="MyProtein Creatine">
+                    
+                        <h3>MyProtein, The Creatine Creapure</h3>
+                        <p class="description">Creatina de alta pureza para entrenamientos intensos.</p>
+                        <p><strong>Tipo:</strong> Creatina</p>
+                        <div class="rating">★★★★★</div>
+                    
+                        <div class="price">
+                            <span class="old-price">US$34.99</span>
+                            <span class="new-price">US$28.99</span>
+                        </div>
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+
+
+                    <!-- Producto 3 -->
+                    <article class="product-card">
+                        <span class="badge">Oferta</span>
+                        <img src="img/creatine capsules.png" alt="Creatine Capsules">
+
+                        <h3>Legion Athletics, Creatina en Capsulas</h3>
+                        <p class="description">Presentación práctica en cápsulas para consumo diario.</p>
+                        <p><strong>Tipo:</strong> Creatina</p>
+
+                        <div class="rating">★★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$39.99</span>
+                            <span class="new-price">US$33.63</span>
+                        </div>
+
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+                </div>
+
+
+                <!-- ================= PRE-WORKOUT ================= -->
+                <h2 id="preworkout" class="category-title">Pre-Workout</h2>
+                <div class="products-grid">
+        
+
+                    <!-- Producto 1 -->
+                    <article class="product-card">
+                        <span class="badge">Energía</span>
+                        <img src="img/Nitro Pum Pre work.webp" alt="Nitro Pump">
+        
+                        <h3>Body Attack, Nitro Pump 3.0</h3>
+                        <p class="description">
+                            Fórmula pre-entrenamiento diseñada para aumentar la energía, el enfoque y el rendimiento físico.
+                        </p>
+                        <p> <strong>Tipo:</strong> Pre-Workout</p>
+        
+                        <div class="rating">★★★★★ </div>
+                        <div class="price">
+                            <span class="old-price">US$34.33</span>
+        
+                            <span class="new-price">US$28.60</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+        
+        
+                    <!-- Producto 2 -->
+                    <article class="product-card">
+                        <span class="badge">Popular</span>
+        
+                        <img src="img/pre work drink.webp" alt="Pre-Workout Shot">
+        
+                        <h3>Optimum Nutrition, Bebida Pre-Workout</h3>
+                        <p class="description">Ideal para mejorar la concentración y mantener un alto nivel de intensidad durante el entrenamiento. </p>
+                        <p><strong>Tipo:</strong> Pre-Workout</p>
+        
+                        <div class="rating"> ★★★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$7.53</span>
+                            <span class="new-price">US$4.57</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+        
+        
+                    <!-- Producto 3 -->
+                    <article class="product-card">
+                        <span class="badge">Nuevo</span>
+                        <img src="img/pre-workout-nf-nutrition-.png" alt="Extreme Focus">
+        
+                        <h3>Nf Nutritrion, Extreme Focus Pre Workout</h3>
+                        <p class="description">
+        
+                            Mezcla avanzada de ingredientes para maximizar el rendimiento y retrasar la fatiga muscular.
+                        </p>
+                        <p><strong>Tipo:</strong> Pre-Workout</p>
+        
+                        <div class="rating">★★★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$34.68</span>
+                            <span class="new-price">US$28.29</span>      
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+                </div>
+
+
+                <!-- ================= ACCESORIOS ================= -->
+                <h2 id="accesorios" class="category-title">Accesorios</h2>
+                <div class="products-grid">
+
+        
+                    <!-- Producto 1 -->
+                    <article class="product-card">
+                        <span class="badge">Oferta</span>
+                        <img src="img/Protein_Shaker.png" alt="Protein Shaker">
+        
+                        <h3>PILLAR Performance, Protein Shaker</h3>
+                        <p class="description">
+                            Botella mezcladora de 700 ml con cierre hermético, ideal para preparar tus batidos en cualquier
+                            lugar.
+                        </p>
+                        <p><strong>Tipo:</strong> Accesorio</p>
+        
+                        <div class="rating">★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$35.99</span>
+                            <span class="new-price">US$29.99</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+        
+        
+        
+                    <!-- Producto 2 -->
+                    <article class="product-card">
+                        <span class="badge">Fitness</span>
+                        <img src="img/Gym Gloves.png" alt="Gym Gloves">
+        
+                        <h3>More Active, Guantes de agarre</h3>
+                        <p class="description">
+                            Guantes acolchados que mejoran el agarre y brindan mayor comodidad durante el entrenamiento.
+                        </p>
+                        <p><strong>Tipo:</strong> Accesorio</p>
+        
+                        <div class="rating">★★★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$35.99</span>
+        
+                            <span class="new-price">US$27.47</span>
+                        </div>
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+        
+        
+                    <!-- Producto 3 -->
+                    <article class="product-card">
+                        <span class="badge">Recomendado </span>
+                        <img src="img/Resistance Bands.png" alt="Resistance Bands">
+        
+                        <h3>Life Fitness, Bandas de Resistencia</h3>
+                        <p class="description">       
+                            Bandas de resistencia de diferentes niveles para fortalecer músculos y mejorar la movilidad.
+                        </p>
+                        <p><strong>Tipo:</strong> Accesorio</p>
+        
+                        <div class="rating">★★★★★</div>
+                        <div class="price">
+                            <span class="old-price">US$23,00</span>
+                            <span class="new-price">US$17.00</span>
+                        </div>
+        
+                        <a href="#" class="btn-product">Comprar ahora</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= BENEFICIOS ================= -->
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <div class="section-title">
+                    <h2>¿Por qué elegir FitFuel Market?</h2>
+                    <p>
+                        Nos esforzamos por ofrecer una experiencia de compra segura,
+                        rápida y confiable para todos los amantes del fitness.
+                    </p>
+                </div>
+                <div class="benefits-grid">
+                    <article class="benefit-card">
+                        <h3>🏆 Calidad garantizada</h3>
+                        <p>
+                            Trabajamos con suplementos elaborados bajo altos estándares
+                            de calidad para brindarte productos confiables y efectivos.
+                        </p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <h3>🚚 Envíos rápidos</h3>
+                        <p>
+                            Procesamos los pedidos en el menor tiempo posible para que
+                            recibas tus productos sin largas esperas.
+                        </p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <h3>💳 Compra segura</h3>
+                        <p>
+                            Contamos con métodos de pago protegidos que ofrecen mayor
+                            confianza durante todo el proceso de compra.
+                        </p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <h3>💬 Atención personalizada</h3>
+                        <p>
+                            Nuestro equipo está disponible para ayudarte a elegir los
+                            suplementos más adecuados según tus objetivos.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ESTADÍSTICAS ================= -->
+        <section class="statistics">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h2>25K+</h2>
+                        <p>Clientes satisfechos</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h2>350+</h2>
+                        <p>Productos disponibles</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h2>98%</h2>
+                        <p>Opiniones positivas</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h2>24/7</h2>
+                        <p>Soporte al cliente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= TESTIMONIOS ================= -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <div class="section-title">
+
+                    <h2>Lo que opinan nuestros clientes</h2>
+                    <p>
+                        Estas son algunas experiencias de personas que ya forman
+                        parte de la comunidad FitFuel Market.
+                    </p>
+                </div>
+
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            "Compré la proteína por primera vez y superó mis
+                            expectativas. El envío fue rápido y la página es muy
+                            fácil de utilizar."
+                        </p>
+                        <h4>Antonio González</h4>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            "Encontré todo lo que necesitaba para complementar mi
+                            rutina de entrenamiento. Sin duda volveré a comprar."
+                        </p>
+                        <h4>Francisco Rodríguez</h4>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            "Los productos llegaron en excelente estado y la
+                            atención al cliente respondió todas mis dudas."
+                        </p>
+                        <h4>Carolina Pérez</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- ================= TNEWSLETTER ================= -->
+        <section class="newsletter">
+            <div class="container newsletter-content">
+
+                <h2>
+                    Recibe nuestras ofertas exclusivas
+                </h2>
+                <p>
+                    Suscríbete para enterarte primero de nuevos productos,
+                    promociones y consejos sobre nutrición deportiva.
+                </p>
+
+                <form>
+                    <input type="email" placeholder="Ingresa tu correo electrónico">
+                    <button type="submit">
+                        Suscribirme
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+     <!-- ================= FOOTER ================= -->
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div>
+                <h3>FitFuel Market</h3>
+                <p>
+                    Fuel Your Strength
+                </p>
+                <p>
+                    Suplementos deportivos y accesorios fitness para ayudarte a
+                    alcanzar tu mejor rendimiento.
+                </p>
+            </div>
+
+            <div>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
+                    <li><a href="#reviews">Testimonios</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Contacto</h3>
+                <p>📧 info@fitfuelmarket.com</p>
+                <p>📞 (809) 846-2726</p>
+                <p>📍 Santo Domingo, República Dominicana</p>
+            </div>
+
+            <div>
+                <h3>Síguenos</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>TikTok</p>
+                <p>YouTube</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 FitFuel Market. Todos los derechos reservados. </p>
+        </div>
+    </footer>
+</body>
+</html>
