@@ -955,6 +955,9 @@ footer{
     .hero-image{
 
         order:2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
 
     }
 
@@ -1031,11 +1034,11 @@ footer{
 
     .category-card img{
 
-        width:100%;
+        width:80%;
 
         height:auto;
 
-        max-width:100%;
+        max-width:350px;
 
     }
 
